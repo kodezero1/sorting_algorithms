@@ -77,7 +77,7 @@ To use these sorting algorithms, follow these steps:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/sorting-algorithms-c.git
+   git clone https://github.com/kodezero1/sorting-algorithms-c.git
    ```
 
 2. Navigate to the repository's directory:
