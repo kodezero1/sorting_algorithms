@@ -112,6 +112,3 @@ We welcome contributions from the open-source community. If you'd like to contri
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-You can easily copy this Markdown content and customize it as needed.
