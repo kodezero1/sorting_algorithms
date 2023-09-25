@@ -15,8 +15,10 @@ void swap(int *first, int *second)
 }
 
 /**
- * lomuto_partition - Function that orders a subset of an array of integers according to
- *                    the Lomuto partition scheme (last element as pivot).
+ * lomuto_partition - Function that orders a subset of an array of
+ *			integers according to the Lomuto partition scheme
+ *			(last element as pivot).
+ *
  * @array: The array of integers.
  * @size: The size of the array.
  * @low: The starting index of the subset to order.
@@ -52,7 +54,9 @@ int lomuto_partition(int *array, size_t size, int low, int high)
 }
 
 /**
- * lomuto_sort - Function to implement the quicksort algorithm through recursion.
+ * lomuto_sort - Function to implement the quicksort algorithm
+ *		through recursion.
+ *
  * @array: An array of integers to sort.
  * @size: The size of the array.
  * @low: The starting index of the array partition to order.
