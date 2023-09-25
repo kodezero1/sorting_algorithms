@@ -83,15 +83,12 @@ void cocktail_sort_list(listint_t **list)
 	bool swapped = false;
 
 	if (list == NULL || *list == NULL || (*list)->next == NULL)
-	{
 		return;
-	}
 
 	for (tail = *list; tail->next != NULL;)
 	{
 		tail = tail->next;
 	}
-
 	while (!swapped)
 	{
 		swapped = true;
@@ -104,13 +101,11 @@ void cocktail_sort_list(listint_t **list)
 				print_list((const listint_t *)*list);
 				swapped = false;
 			}
-
 			else
 			{
 				shaker = shaker->next;
 			}
 		}
-
 		shaker = tail;
 		while (shaker != *list)
 		{
@@ -121,9 +116,7 @@ void cocktail_sort_list(listint_t **list)
 				swapped = false;
 			}
 			else
-			{
 				shaker = shaker->prev;
-			}
 		}
 	}
 }
